@@ -1,5 +1,3 @@
-
-
 body {
     background-color: aqua;
     font-family: Arial, Helvetica, sans-serif;
@@ -55,6 +53,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 8px;
 }
 
 .heading-1 {
@@ -69,9 +68,9 @@ a {
 }
 
 #sign-up-1 {
-    height: auto;
+    height: 28px;
     width: 100px;
-    border-radius: 30px;
+    border-radius: 5px;
 }
 
 img.image {
@@ -91,12 +90,20 @@ img.image {
 
 .super-flex {
     display: flex;
-    gap: 120px;
+    gap: 10px;
 }
 
 .flex {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 70px;
+    gap: 10px;
+}
+
+.flex .text {
+    text-align: center; 
+    color: #363637;
 }
 
 .heading {
@@ -109,11 +116,6 @@ img.image {
     width: 200px;
     border-radius: 20px;
     border: 2px solid #3882F6;
-}
-
-.flex .text {
-    text-align: center;
-    color: #363637;
 }
 
 .content-3 {
@@ -165,7 +167,8 @@ img.image {
     font-size: 20px;
     background-color: #3882F6;
     border: 2px solid #F9FAF8;
-    border-radius: 30px;
+    border-radius: 5px;
+    color: #F9FAF8;
 }
 
 .footer {
